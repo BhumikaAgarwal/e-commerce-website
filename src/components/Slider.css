@@ -1,0 +1,56 @@
+.slider {
+    height: 90vh;
+    width: 100%;
+}
+
+.arrow {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.arrow1,
+.arrow2 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+}
+
+.arrow1{
+    left: 10px;
+}
+.arrow2{
+    right: 10px;
+}
+
+.img{
+    justify-content: center;
+    display: flex;
+    
+    align-items: center;
+}
+
+.img img{
+    height: 80vh; 
+    width: 100%;
+    object-fit: cover;
+    flex: 1;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.8vw;
+}
+

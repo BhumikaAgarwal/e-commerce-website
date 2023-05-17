@@ -1,0 +1,36 @@
+.categories {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.image img {
+    height: 40vh;
+    width: 20vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.shop {
+    height: 8vh;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 15px;
+    border: none;
+    background-color: #ffe9e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
