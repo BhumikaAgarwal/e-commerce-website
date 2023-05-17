@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 import Newsletter from "./Newsletter";
 import "./Productlist.css";
 import Products from "./Products";
-import Rings from "./rings";
+import Rings from "./Rings";
 // import Necklaces from "./Necklaces";
 
 const Productlist = () => {
