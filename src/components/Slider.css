@@ -54,3 +54,12 @@
     letter-spacing: 0.8vw;
 }
 
+
+
+@media(max-width:1000px){
+    .img3{
+        display: none;
+    }
+}
+
+
